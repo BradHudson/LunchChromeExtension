@@ -1,0 +1,1 @@
+This is the actual chrome extension code. It's just html and javascript with an ajax call that sends the users input choice for lunch to the Sinatra app.

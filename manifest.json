@@ -1,14 +1,14 @@
 {
 	"manifest_version": 2,
 
-	"name": "Lunch Vote",
-  "description": "Vote for lunch.",
+	"name": "Got Lunch?",
+  "description": "Your Vote. Your Lunch. A place for groups to vote on where to eat.",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "food.png",
     "default_popup": "popup.html",
-    "default_title": "Lunch Vote"
+    "default_title": "Got Lunch?"
   },
   "permissions": [
     "activeTab"

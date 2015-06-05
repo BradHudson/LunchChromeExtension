@@ -4,8 +4,10 @@
     <title>Getting Started Extension's Popup</title>
     <style>
       body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-family: "Trebuchet MS";
         font-size: 100%;
+        min-width: 300px;
+        min-height: 300px;
       }
       #status {
         white-space: pre;
@@ -16,9 +18,10 @@
     </style>
     <script src="popup.js"></script>
     <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <label id="test">Vote for Lunch bro</label>
+    <label id="test">got lunch?</label><br/>
     <input id="entry" placeholder="Vote for Cue..."></input>
     <button id="vote">Vote</button>
 </html>

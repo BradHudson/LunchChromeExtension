@@ -6,3 +6,10 @@
 	padding-left: 35px;
 	font-size: -webkit-xxx-large;
 }
+
+body {
+font-family: "Trebuchet MS";
+font-size: 100%;
+min-width: 300px;
+min-height: 300px;
+}

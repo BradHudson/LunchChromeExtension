@@ -15,5 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     $.get("https://glacial-hollows-4569.herokuapp.com/vote", { choice: document.getElementById("entry").value } ,function(data, status){
         alert("Data: " + data + "\nStatus: " + status);
     });
+
   })
 });

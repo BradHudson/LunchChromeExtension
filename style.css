@@ -23,6 +23,14 @@
   	padding-top: 50px;
 }
 
+#thanks{
+	visibility: hidden;
+	display:none;
+	padding-left: 20px;
+	font-size: 28px;
+	font-family: 'Inconsolata';
+}
+
 #main{
 	margin-top: 30px;
 }

@@ -12,9 +12,17 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("main").style.display= 'none';
     document.getElementById("loading").style.visibility = 'visible';
     document.getElementById("loading").style.display = 'block';
-    $.get("https://glacial-hollows-4569.herokuapp.com/vote", { choice: document.getElementById("entry").value } ,function(data, status){
-        alert("Data: " + data + "\nStatus: " + status);
+    $.get("https://glacial-hollows-4569.herokuapp.com/", { name: document.getElementById("entry").value } ,function(data, status){
     });
+
+    setTimeout(function(){
+    document.getElementById("loading").style.display = 'none';
+    document.getElementById("thanks").style.visibility = 'visible';
+    document.getElementById("thanks").style.display = 'block';
+    }, 2000);
+
+    
+
 
   })
 });
